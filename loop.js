@@ -48,7 +48,17 @@ for (let i = 1; i <= 30; i++) {
 // Write a for loop that calculates the sum of numbers from 1 to 20 and prints the result.
 
 let sum = 0;
-for (let i = 1; i <= 20; i++){
+for (let i = 1; i <= 20; i++) {
   sum += i;
   console.log(`the sum is ${sum}`);
+}
+
+// Task 7 — Multiplication Table
+// Ask the user for a number (or set a variable), then print its multiplication table from 1 to 10 using a for loop. Example: if the number is 7 → 7 x 1 = 7, 7 x 2 = 14, ... 7 x 10 = 70.
+
+let UserNumber = 7;
+
+for (let i = 1; i <= 10; i++) {
+  numberr = UserNumber * i;
+  console.log(`${UserNumber} X ${i} = ${numberr}`);
 }

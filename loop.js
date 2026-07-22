@@ -67,6 +67,18 @@ for (let i = 1; i <= 10; i++) {
 // Write a for loop that counts down from 20 to 1.
 
 let Num;
-for (let Num = 20; Num > 0; Num--){
+for (let Num = 20; Num > 0; Num--) {
   console.log(Num);
+}
+
+// Task 9 — Sum of Even Numbers
+// Write a for loop that calculates the sum of all even numbers from 2 to 50.
+
+let SUM = 0;
+
+for (let i = 1; i <= 50; i++) {
+  if (i % 2 === 0) {
+    SUM += i;
+    console.log(SUM);
+  }
 }

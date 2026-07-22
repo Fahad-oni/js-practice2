@@ -109,7 +109,25 @@ for (let i = 1; i <= 20; i++) {
 
 let nums = 1;
 do {
-  console.log(nums)
+  console.log(nums);
   nums++;
-} while (nums >20 );
+} while (nums > 20);
 
+// Task 13 — Comparing Loop Types
+// Write the same task — printing numbers 1 to 5 — three times: once using for, once using while, and once using do while. Compare how the code structure differs for each.
+
+let NuM = 1;
+
+for (let NuM = 1; NuM <= 5; NuM++) {
+  console.log(NuM);
+}
+
+// while (NuM <= 5) {
+//   console.log(NuM);
+//   NuM++;
+// }
+
+do {
+  console.log(NuM);
+  NuM++;
+} while (NuM <= 5);

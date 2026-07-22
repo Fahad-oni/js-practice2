@@ -31,6 +31,15 @@ let message = 'Loop চলছে';
 let i = 1;
 
 while (i <= 7) {
-  console.log('the count is',i, message);
+  console.log('the count is', i, message);
   i++;
+}
+
+// Task 5 — Even Numbers
+// Write a for loop that prints all even numbers between 1 and 30.
+
+for (let i = 1; i <= 30; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
 }

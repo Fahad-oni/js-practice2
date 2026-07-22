@@ -62,3 +62,11 @@ for (let i = 1; i <= 10; i++) {
   numberr = UserNumber * i;
   console.log(`${UserNumber} X ${i} = ${numberr}`);
 }
+
+// Task 8 — Count Down from 20
+// Write a for loop that counts down from 20 to 1.
+
+let Num;
+for (let Num = 20; Num > 0; Num--){
+  console.log(Num);
+}

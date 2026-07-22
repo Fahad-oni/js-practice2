@@ -131,3 +131,22 @@ do {
   console.log(NuM);
   NuM++;
 } while (NuM <= 5);
+
+// Task 14 — Mini Challenge
+// Write a program that:
+// Loops from 1 to 100.
+// Skips (continue) any number divisible by 5.
+// Stops (break) completely once it reaches a number greater than 40.
+// Prints every number that passes both checks.
+
+for (let NUMB = 1; NUMB <= 100; NUMB++){
+  if (NUMB % 2 === 0) {
+    continue
+  }
+
+  if (NUMB > 40) {
+    break
+  }
+
+  console.log(NUMB)
+}
